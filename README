@@ -1,0 +1,10 @@
+Terry Wambolt, Logan Lawson, Alex Arriola, Brian Phan
+
+SLO 5 is an app that allows for people, specifically students, who aren't familiar with San Luis and the popular locations nearby. It shows the top places for each category the person would be interested in so that they could live like a person who knows San Luis Obispo.
+
+Our prototype breaks everything down into 5 basic categories that get expanded into more specific subcategories for places in SLO. Every screen focuses on a different area within our database and uses the segue to point our code to the correct area as chosen by the user pressing the button. It takes the data from firebase, and with a query, it is CORRECTLY ordered by the ranking we gave it. As of now, the ranking isn't showing but when the cell is selected, it opens up a map view which, as of right now only shows the name of the restaurant selected.
+
+In the next update, we will have a way to pass the address data from firebase through the table view and to the map view where code to convert the address to latitude and longitude will occur allowing us to place the annotation on the map. A button will then be present allowing us to open a third party app and taking the user to the specified location.
+
+
+'
